@@ -1,0 +1,365 @@
+@media (min-width: 575px){
+
+  /* header */
+
+  .header {
+    padding: 29px 0;
+  }
+
+  .navbar {
+    display: block;
+    margin-top: 29px;
+  }
+
+  .header__burger {
+    display: none;
+  }
+
+  .header__top {
+    justify-content: center;
+  }
+
+
+  /* hero */
+
+
+  .hero {
+    padding-top: 78px;
+    padding-bottom: 135px;
+  }
+
+  .hero__title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 100%;
+  }
+  .hero__paragraph {
+    width: 90%;
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+  }
+
+  .hero__btn {
+    width: 270px;
+    margin-top: 62px;
+    padding: 24px 0;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px
+  }
+
+  /* advantages */
+
+  .advantages {
+    padding-top: 80px;
+    padding-bottom: 55px;
+  }
+
+  .advantages__img {
+    display: block;
+  }
+
+  .advantages__list {
+    display: flex;
+  }
+
+  .advantages__item {
+    padding-left: 0;
+    padding-top: 60%;
+  }
+
+  .advantages__card {
+    padding-left: 15px;
+  }
+
+  .advantages__card:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  .advantages__item-1 {
+    background-position: top left;
+  }
+
+  .advantages__item-2 {
+    background-position: top left;
+  }
+
+  .advantages__item-3 {
+    background-position: top left;
+  }
+
+  .advantages__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+  }
+
+  .advantages__paragraph {
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  /* professors */
+
+  .professors {
+    padding: 75px 0;
+    padding-bottom: 50px;
+  }
+
+  .professors__name {
+    margin-top: 30px;
+  }
+
+  .professors__item:nth-child(-n+2) {
+    margin-bottom: 23px;
+  }
+
+  .professors__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+  }
+
+  .professors__block {
+    margin-top: 22px;
+  }
+
+  .professors__block-item:not(:last-child) {
+    margin-bottom: 0px;
+  }
+
+  /* courses */
+
+  .courses {
+    padding: 75px 0;
+  }
+
+  .courses__block {
+    margin-top: 23px;
+  }
+
+  .courses__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+  }
+
+  .courses__cards {
+    flex-direction: row;
+  }
+
+  .courses__card:not(:last-child) {
+    margin-bottom: 0px;
+  }
+
+  .courses__item:not(:last-child) {
+    margin-bottom: 0px;
+  }
+
+  .courses__card:nth-child(-n+2) {
+    margin-bottom: 31px;
+  }
+
+  .courses__item-content {
+    min-height: 375px;
+    padding: 0 30px 0 30px;
+  }
+
+  .courses__name {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .courses__btn {
+    width: 180px;
+    margin-top: 8px;
+  }
+
+  /* footer */
+
+  .footer {
+    margin-top: 6px;
+  }
+}
+
+@media (min-width: 767px) {
+
+  /* header */
+
+  .header {
+    padding: 28px 0;
+  }
+
+  .header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navbar {
+    margin-top: 0;
+  }
+
+  /* hero */
+
+  .hero {
+    padding-top: 116px;
+    position: relative;
+  }
+
+  .hero__container {
+    padding-right: 30px;
+  }
+
+  .hero__img {
+    background-image: url(../img/hero_768-.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    height: 57%;
+    right: -2%;
+  }
+
+  .hero__title {
+    margin-top: 13px;
+  }
+
+  /* advantages */
+
+  .advantages {
+    padding-bottom: 76px;
+  }
+
+  .advantages__cards {
+    margin-top: 22px;
+  }
+
+  .advantages__item {
+    padding-top: 43%;
+  }
+
+  .advantages__descr {
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* professors */
+
+  .professors {
+    padding-bottom: 26px;
+  }
+
+  /* courses */
+
+  .courses__item-content {
+    min-height: 278px;
+    padding: 0 30px 0 30px;
+  }
+
+  .courses__item {
+    align-items: start;
+  }
+
+  .courses__btn {
+    width: 195px;
+    margin-left: 30px;
+  }
+
+  .courses__paragraph {
+    margin-top: 8px;
+  }
+
+  .courses__name {
+    margin-top: 33px;
+  }
+
+  .footer__container {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  /* hero */
+
+  .hero {
+    padding-bottom: 130px;
+  }
+
+  .hero__title {
+    font-size: 60px;
+  }
+
+  .hero__img {
+    background-image: url(../img/hero-1440.png);
+    position: absolute;
+    background-size: contain;
+    height: 95.5%;
+    top: 2.5%;
+    right: -3%;
+  }
+
+  .hero__paragraph {
+    width: 101%;
+    margin-top: 29px;
+  }
+
+  /* advantages */
+
+  .advantages {
+    padding-bottom: 80px;
+  }
+
+  .advantages__descr {
+    justify-content: flex-start;
+  }
+
+  .advantages__title {
+    width: 74%;
+  }
+
+  .advantages__paragraph {
+    width: 95%;
+  }
+
+  .advantages__item {
+    padding-top: 3%;
+    padding-left: 31%;
+  }
+
+  /* professors */
+
+  .professors {
+    padding-bottom: 50px;
+  }
+
+  .professors__paragraph {
+    width: 99%;
+  }
+
+  /* courses */
+
+  .courses__item-content {
+    min-height: 202px;
+  }
+
+  .courses__block {
+    margin-top: 22px;
+  }
+
+  .courses__btn {
+    width: 202px;
+  }
+
+  .courses__time {
+    right: 5px;
+  }
+
+  .courses__paragraph {
+    width: 99%;
+  }
+}
